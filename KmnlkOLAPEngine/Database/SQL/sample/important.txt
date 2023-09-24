@@ -1,0 +1,14 @@
+﻿- select { kpivalue("testKPI") , kpigoal("testKPI") , kpistatus("testKPI") , kpitrend("testKPI") } on columns from [view]
+
+- select { [Measures].[M1] } on columns from [view]
+
+- select { [Measures].[M1] } on columns , 
+		 {nonempty([Dim].[K1].cheldren)} on rows
+		 from [view]
+		 where ([Dim].[k2].[2])  // 2: value
+
+- select { [Measures].[M1] } on columns , 
+		 {nonempty([Dim].[K1].cheldren) * filter ([Dim].[k1].children , [Dim].[k1].currentmember.membervalue='2018') } on rows
+		 from [view]
+		//filter ([Dim].[k1].children , [Dim].[k1].currentmember.membervalue='2018')
+

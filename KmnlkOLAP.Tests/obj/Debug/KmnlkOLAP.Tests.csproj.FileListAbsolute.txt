@@ -1,0 +1,5 @@
+S:\LocalPro\KmnlkOLAP\KmnlkOLAP.Tests\bin\Debug\KmnlkOLAP.Tests.dll
+S:\LocalPro\KmnlkOLAP\KmnlkOLAP.Tests\bin\Debug\KmnlkOLAP.Tests.pdb
+S:\LocalPro\KmnlkOLAP\KmnlkOLAP.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+S:\LocalPro\KmnlkOLAP\KmnlkOLAP.Tests\obj\Debug\KmnlkOLAP.Tests.dll
+S:\LocalPro\KmnlkOLAP\KmnlkOLAP.Tests\obj\Debug\KmnlkOLAP.Tests.pdb

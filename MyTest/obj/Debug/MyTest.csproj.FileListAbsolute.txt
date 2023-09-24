@@ -1,0 +1,10 @@
+S:\LocalPro\KmnlkOLAP\MyTest\bin\Debug\MyTest.exe.config
+S:\LocalPro\KmnlkOLAP\MyTest\bin\Debug\MyTest.exe
+S:\LocalPro\KmnlkOLAP\MyTest\bin\Debug\MyTest.pdb
+S:\LocalPro\KmnlkOLAP\MyTest\bin\Debug\KmnlkCommon.dll
+S:\LocalPro\KmnlkOLAP\MyTest\bin\Debug\KmnlkOLAPEngine.dll
+S:\LocalPro\KmnlkOLAP\MyTest\bin\Debug\Newtonsoft.Json.dll
+S:\LocalPro\KmnlkOLAP\MyTest\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+S:\LocalPro\KmnlkOLAP\MyTest\bin\Debug\KmnlkOLAPEngine.pdb
+S:\LocalPro\KmnlkOLAP\MyTest\obj\Debug\MyTest.exe
+S:\LocalPro\KmnlkOLAP\MyTest\obj\Debug\MyTest.pdb

@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="16.5" version="16.5" Modules="simple" RootPath="." Language="en" Id="{E29BC5B1-E5BB-4860-9F23-AF41E90F5ACD}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Antlr3.Runtime.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Antlr3.Runtime.pdb" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Api.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ApiGroup.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ApplicationInsights.config" Value="..\KmnlkOLAPApi"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ApplicationInsights.config_1" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CollectionModelDescription.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ComplexTypeModelDescription.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DictionaryModelDescription.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_EnumTypeModelDescription.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Error.cshtml" Value="..\KmnlkOLAPApi\Views\Shared"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Global.asax" Value="..\KmnlkOLAPApi"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_HelpPage.css" Value="..\KmnlkOLAPApi\Areas\HelpPage"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_HelpPageApiModel.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ImageSample.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Index.cshtml" Value="..\KmnlkOLAPApi\Views\Home"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Index.cshtml_1" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_InvalidSample.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KeyValuePairModelDescription.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkCommon.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPApi.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPApi.pdb" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPApi.resources.dll" Value="..\KmnlkOLAPApi\bin\ar"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPApi.resources.dll_1" Value="..\KmnlkOLAPApi\bin\en"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPApi.resources.dll_2" Value="..\KmnlkOLAPApi\bin\fr"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPApiCollection.postman_collection.json" Value="..\KmnlkOLAPApi\Docs\collections"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPDll.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPDll.pdb" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPEngine.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPEngine.pdb" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.Agent.Intercept.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.DependencyCollector.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.PerfCounterCollector.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.Web.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.WindowsServer.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AnalysisServices.AdomdClient.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.ApplicationInsights.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CSharp.Core.targets" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.VisualBasic.Core.targets" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Web.Infrastructure.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ModelDescriptionLink.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Ninject.Extensions.ChildKernel.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Ninject.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Parameters.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ResourceModel.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Samples.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_SimpleTypeModelDescription.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Site.css" Value="..\KmnlkOLAPApi\Content"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.AppContext.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Collections.Immutable.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.StackTrace.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.IO.FileSystem.Primitives.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.IO.FileSystem.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Net.Http.Formatting.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Reflection.Metadata.dll" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.Helpers.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.Http.WebHost.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.Http.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.Mvc.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.Optimization.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.Razor.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.WebPages.Deployment.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.WebPages.Razor.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.WebPages.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TextSample.cshtml" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_VBCSCompiler.exe" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_VBCSCompiler.exe.config" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Web.config" Value="..\KmnlkOLAPApi"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Web.config_1" Value="..\KmnlkOLAPApi\Views"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Web.config_2" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WebApiContrib.IoC.Ninject.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WebGrease.dll" Value="..\KmnlkOLAPApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD__Layout.cshtml" Value="..\KmnlkOLAPApi\Views\Shared"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD__Layout.cshtml_1" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views\Shared"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD__ViewStart.cshtml" Value="..\KmnlkOLAPApi\Views"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD__ViewStart.cshtml_1" Value="..\KmnlkOLAPApi\Areas\HelpPage\Views"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_bootstrap.css" Value="..\KmnlkOLAPApi\Content"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_bootstrap.js" Value="..\KmnlkOLAPApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_bootstrap.min.css" Value="..\KmnlkOLAPApi\Content"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_bootstrap.min.js" Value="..\KmnlkOLAPApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_config.xml" Value="..\KmnlkOLAPApi\Settings"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_csc.exe" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_csc.exe.config" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_csc.rsp" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_csi.exe" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_csi.rsp" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_favicon.ico" Value="..\KmnlkOLAPApi"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.eot" Value="..\KmnlkOLAPApi\fonts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.svg" Value="..\KmnlkOLAPApi\fonts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.ttf" Value="..\KmnlkOLAPApi\fonts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.woff" Value="..\KmnlkOLAPApi\fonts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_jquery1.10.2.js" Value="..\KmnlkOLAPApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_jquery1.10.2.min.js" Value="..\KmnlkOLAPApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_jquery1.10.2.min.map" Value="..\KmnlkOLAPApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_modernizr2.6.2.js" Value="..\KmnlkOLAPApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_packages.config" Value="..\KmnlkOLAPApi"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_respond.js" Value="..\KmnlkOLAPApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_respond.min.js" Value="..\KmnlkOLAPApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_vbc.exe" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_vbc.exe.config" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_vbc.rsp" Value="..\KmnlkOLAPApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Antlr3.Runtime.dll" Value="Antlr3.Runtime.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Antlr3.Runtime.pdb" Value="Antlr3.Runtime.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Api.cshtml" Value="Api.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ApiGroup.cshtml" Value="ApiGroup.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ApplicationInsights.config" Value="ApplicationInsights.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ApplicationInsights.config_1" Value="ApplicationInsights.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CollectionModelDescription.cshtml" Value="CollectionModelDescription.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ComplexTypeModelDescription.cshtml" Value="ComplexTypeModelDescription.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DictionaryModelDescription.cshtml" Value="DictionaryModelDescription.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_EnumTypeModelDescription.cshtml" Value="EnumTypeModelDescription.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Error.cshtml" Value="Error.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Global.asax" Value="Global.asax"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_HelpPage.css" Value="HelpPage.css"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_HelpPageApiModel.cshtml" Value="HelpPageApiModel.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ImageSample.cshtml" Value="ImageSample.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Index.cshtml" Value="Index.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Index.cshtml_1" Value="Index.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_InvalidSample.cshtml" Value="InvalidSample.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KeyValuePairModelDescription.cshtml" Value="KeyValuePairModelDescription.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkCommon.dll" Value="KmnlkCommon.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.dll" Value="KmnlkOLAPApi.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.pdb" Value="KmnlkOLAPApi.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.resources.dll" Value="KmnlkOLAPApi.resources.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.resources.dll_1" Value="KmnlkOLAPApi.resources.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.resources.dll_2" Value="KmnlkOLAPApi.resources.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApiCollection.postman_collection.json" Value="KmnlkOLAPApiCollection.postman_collection.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPDll.dll" Value="KmnlkOLAPDll.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPDll.pdb" Value="KmnlkOLAPDll.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPEngine.dll" Value="KmnlkOLAPEngine.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPEngine.pdb" Value="KmnlkOLAPEngine.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.Agent.Intercept.dll" Value="Microsoft.AI.Agent.Intercept.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.DependencyCollector.dll" Value="Microsoft.AI.DependencyCollector.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.PerfCounterCollector.dll" Value="Microsoft.AI.PerfCounterCollector.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll" Value="Microsoft.AI.ServerTelemetryChannel.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.Web.dll" Value="Microsoft.AI.Web.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.WindowsServer.dll" Value="Microsoft.AI.WindowsServer.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AnalysisServices.AdomdClient.dll" Value="Microsoft.AnalysisServices.AdomdClient.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ApplicationInsights.dll" Value="Microsoft.ApplicationInsights.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll" Value="Microsoft.Build.Tasks.CodeAnalysis.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CSharp.Core.targets" Value="Microsoft.CSharp.Core.targets"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll" Value="Microsoft.CodeAnalysis.CSharp.Scripting.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll" Value="Microsoft.CodeAnalysis.CSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll" Value="Microsoft.CodeAnalysis.Scripting.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll" Value="Microsoft.CodeAnalysis.VisualBasic.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.dll" Value="Microsoft.CodeAnalysis.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" Value="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll" Value="Microsoft.DiaSymReader.Native.amd64.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll" Value="Microsoft.DiaSymReader.Native.x86.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.VisualBasic.Core.targets" Value="Microsoft.VisualBasic.Core.targets"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Web.Infrastructure.dll" Value="Microsoft.Web.Infrastructure.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ModelDescriptionLink.cshtml" Value="ModelDescriptionLink.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll" Value="Newtonsoft.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Ninject.Extensions.ChildKernel.dll" Value="Ninject.Extensions.ChildKernel.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Ninject.dll" Value="Ninject.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Parameters.cshtml" Value="Parameters.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ResourceModel.cshtml" Value="ResourceModel.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Samples.cshtml" Value="Samples.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_SimpleTypeModelDescription.cshtml" Value="SimpleTypeModelDescription.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Site.css" Value="Site.css"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.AppContext.dll" Value="System.AppContext.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Collections.Immutable.dll" Value="System.Collections.Immutable.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.StackTrace.dll" Value="System.Diagnostics.StackTrace.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.IO.FileSystem.Primitives.dll" Value="System.IO.FileSystem.Primitives.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.IO.FileSystem.dll" Value="System.IO.FileSystem.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Net.Http.Formatting.dll" Value="System.Net.Http.Formatting.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Reflection.Metadata.dll" Value="System.Reflection.Metadata.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.Helpers.dll" Value="System.Web.Helpers.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.Http.WebHost.dll" Value="System.Web.Http.WebHost.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.Http.dll" Value="System.Web.Http.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.Mvc.dll" Value="System.Web.Mvc.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.Optimization.dll" Value="System.Web.Optimization.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.Razor.dll" Value="System.Web.Razor.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.Deployment.dll" Value="System.Web.WebPages.Deployment.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.Razor.dll" Value="System.Web.WebPages.Razor.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.dll" Value="System.Web.WebPages.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TextSample.cshtml" Value="TextSample.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_VBCSCompiler.exe" Value="VBCSCompiler.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_VBCSCompiler.exe.config" Value="VBCSCompiler.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Web.config" Value="Web.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Web.config_1" Value="Web.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Web.config_2" Value="Web.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WebApiContrib.IoC.Ninject.dll" Value="WebApiContrib.IoC.Ninject.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WebGrease.dll" Value="WebGrease.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD__Layout.cshtml" Value="_Layout.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD__Layout.cshtml_1" Value="_Layout.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD__ViewStart.cshtml" Value="_ViewStart.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD__ViewStart.cshtml_1" Value="_ViewStart.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_bootstrap.css" Value="bootstrap.css"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_bootstrap.js" Value="bootstrap.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_bootstrap.min.css" Value="bootstrap.min.css"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_bootstrap.min.js" Value="bootstrap.min.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_config.xml" Value="config.xml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_csc.exe" Value="csc.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_csc.exe.config" Value="csc.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_csc.rsp" Value="csc.rsp"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_csi.exe" Value="csi.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_csi.rsp" Value="csi.rsp"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_favicon.ico" Value="favicon.ico"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.eot" Value="glyphicons-halflings-regular.eot"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.svg" Value="glyphicons-halflings-regular.svg"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.ttf" Value="glyphicons-halflings-regular.ttf"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.woff" Value="glyphicons-halflings-regular.woff"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.js" Value="jquery-1.10.2.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.min.js" Value="jquery-1.10.2.min.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.min.map" Value="jquery-1.10.2.min.map"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_modernizr2.6.2.js" Value="modernizr-2.6.2.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_packages.config" Value="packages.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_respond.js" Value="respond.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_respond.min.js" Value="respond.min.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_vbc.exe" Value="vbc.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_vbc.exe.config" Value="vbc.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_vbc.rsp" Value="vbc.rsp"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="Manufacturer" Value="Kmnlk"/>
+    <ROW Property="ProductCode" Value="1033:{483A5232-AF06-4CF6-B922-674E639D3D7A} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="KmnlkOLAPApi"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{A57FC522-C862-40B9-A194-09FDFF041B66}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Areas_Dir" Directory_Parent="KmnlkOLAPApi_Dir" DefaultDir="Areas"/>
+    <ROW Directory="Content_Dir" Directory_Parent="KmnlkOLAPApi_Dir" DefaultDir="Content"/>
+    <ROW Directory="DisplayTemplates_Dir" Directory_Parent="Help_Dir" DefaultDir="DISPLA~1|DisplayTemplates"/>
+    <ROW Directory="Docs_Dir" Directory_Parent="KmnlkOLAPApi_Dir" DefaultDir="Docs"/>
+    <ROW Directory="HelpPage_Dir" Directory_Parent="Areas_Dir" DefaultDir="HelpPage"/>
+    <ROW Directory="Help_Dir" Directory_Parent="Views_1_Dir" DefaultDir="Help"/>
+    <ROW Directory="Home_Dir" Directory_Parent="Views_Dir" DefaultDir="Home"/>
+    <ROW Directory="KmnlkOLAPApi_Dir" Directory_Parent="APPDIR" DefaultDir="KMNLKO~1|KmnlkOLAPApi"/>
+    <ROW Directory="Scripts_Dir" Directory_Parent="KmnlkOLAPApi_Dir" DefaultDir="Scripts"/>
+    <ROW Directory="Settings_Dir" Directory_Parent="KmnlkOLAPApi_Dir" DefaultDir="Settings"/>
+    <ROW Directory="Shared_1_Dir" Directory_Parent="Views_1_Dir" DefaultDir="Shared"/>
+    <ROW Directory="Shared_Dir" Directory_Parent="Views_Dir" DefaultDir="Shared"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="Views_1_Dir" Directory_Parent="HelpPage_Dir" DefaultDir="Views"/>
+    <ROW Directory="Views_Dir" Directory_Parent="KmnlkOLAPApi_Dir" DefaultDir="Views"/>
+    <ROW Directory="ar_Dir" Directory_Parent="bin_Dir" DefaultDir="ar"/>
+    <ROW Directory="bin_Dir" Directory_Parent="KmnlkOLAPApi_Dir" DefaultDir="bin"/>
+    <ROW Directory="collections_Dir" Directory_Parent="Docs_Dir" DefaultDir="COLLEC~1|collections"/>
+    <ROW Directory="en_Dir" Directory_Parent="bin_Dir" DefaultDir="en"/>
+    <ROW Directory="fonts_Dir" Directory_Parent="KmnlkOLAPApi_Dir" DefaultDir="fonts"/>
+    <ROW Directory="fr_Dir" Directory_Parent="bin_Dir" DefaultDir="fr"/>
+    <ROW Directory="roslyn_Dir" Directory_Parent="bin_Dir" DefaultDir="roslyn"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{18DA9A7D-AD0D-4D3F-BB66-4E7E4DEC81A8}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput" ComponentId="{AA3B5CCC-611B-4191-8924-875CB000999E}" Directory_="KmnlkOLAPApi_Dir" Attributes="0" KeyPath="Web.config" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage" ComponentId="{051B937C-154E-4016-BBA7-322418B343BB}" Directory_="HelpPage_Dir" Attributes="0" KeyPath="HelpPage.css" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views" ComponentId="{7F1B62FF-6BDD-4697-A7BD-F0538CBF512B}" Directory_="Views_1_Dir" Attributes="0" KeyPath="_ViewStart.cshtml_1" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help" ComponentId="{7BCCCF42-8DDF-42D1-8873-47356309F498}" Directory_="Help_Dir" Attributes="0" KeyPath="Api.cshtml" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" ComponentId="{56EBA100-D683-4B82-A992-8F44C70AE11B}" Directory_="DisplayTemplates_Dir" Attributes="0" KeyPath="ApiGroup.cshtml" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Shared" ComponentId="{534CC939-AB08-4E01-8D7F-12EADEF53458}" Directory_="Shared_1_Dir" Attributes="0" KeyPath="_Layout.cshtml_1" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_Content" ComponentId="{91995741-C122-4F1F-B099-DC5FCC89853D}" Directory_="Content_Dir" Attributes="0" KeyPath="bootstrap.css" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_Docs_collections" ComponentId="{65614BE1-7277-4623-A679-126C79E66D6D}" Directory_="collections_Dir" Attributes="0" KeyPath="KmnlkOLAPApiCollection.postman_collection.json" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_Scripts" ComponentId="{43690FB9-9392-4049-9FCA-EAC6A63C3AA0}" Directory_="Scripts_Dir" Attributes="0" KeyPath="bootstrap.js" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_Settings" ComponentId="{C2236B8A-ED5F-47DC-BE66-1A24FB4A9082}" Directory_="Settings_Dir" Attributes="0" KeyPath="config.xml" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_Views" ComponentId="{40B6A0D1-5BCD-40E4-B0B9-6DCFFD851032}" Directory_="Views_Dir" Attributes="0" KeyPath="_ViewStart.cshtml" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_Views_Home" ComponentId="{CE379989-8FD4-4F0F-9BCF-BF97FA0E8E44}" Directory_="Home_Dir" Attributes="0" KeyPath="Index.cshtml" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_Views_Shared" ComponentId="{3E2C1B58-9B76-4920-A37A-4C036EDDC088}" Directory_="Shared_Dir" Attributes="0" KeyPath="_Layout.cshtml" Type="0"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_bin" ComponentId="{CD782FE0-9CE2-42B1-A6DD-D9DF8FE5BAF5}" Directory_="bin_Dir" Attributes="0" KeyPath="WebGrease.dll"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_bin_ar" ComponentId="{2B03AA57-33B0-48CC-B070-8F0F5C1793CE}" Directory_="ar_Dir" Attributes="0" KeyPath="KmnlkOLAPApi.resources.dll"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_bin_en" ComponentId="{595D433C-CA33-4B14-921C-FA34547149F5}" Directory_="en_Dir" Attributes="0" KeyPath="KmnlkOLAPApi.resources.dll_1"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_bin_fr" ComponentId="{BDDBE3A4-E056-4E0D-8DA3-246041EF92AA}" Directory_="fr_Dir" Attributes="0" KeyPath="KmnlkOLAPApi.resources.dll_2"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" ComponentId="{1DEE91B5-9C6B-48AA-B9BF-6A6C88E2506B}" Directory_="roslyn_Dir" Attributes="0" KeyPath="VBCSCompiler.exe"/>
+    <ROW Component="KmnlkOLAPApi_WebsiteOutput_fonts" ComponentId="{639AF0A7-1C0D-4FE3-AAB9-959C09B6E40B}" Directory_="fonts_Dir" Attributes="0" KeyPath="glyphiconshalflingsregular.eot" Type="0"/>
+    <ROW Component="ProductInformation" ComponentId="{789C1605-8081-4BC5-8082-3C9AE42FBB2B}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Web.config" Component_="KmnlkOLAPApi_WebsiteOutput" FileName="WEB~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_Web.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Web.config&gt;" SelfReg="false"/>
+    <ROW File="ApplicationInsights.config" Component_="KmnlkOLAPApi_WebsiteOutput" FileName="APPLIC~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_ApplicationInsights.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ApplicationInsights.config&gt;" SelfReg="false"/>
+    <ROW File="favicon.ico" Component_="KmnlkOLAPApi_WebsiteOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_favicon.ico]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_favicon.ico&gt;" SelfReg="false"/>
+    <ROW File="Global.asax" Component_="KmnlkOLAPApi_WebsiteOutput" FileName="GLOBAL~2.ASA|[|AI_PROPPATH_FILENAME_PERBUILD_Global.asax]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Global.asax&gt;" SelfReg="false"/>
+    <ROW File="packages.config" Component_="KmnlkOLAPApi_WebsiteOutput" FileName="PACKAG~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_packages.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_packages.config&gt;" SelfReg="false"/>
+    <ROW File="Antlr3.Runtime.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="ANTLR3~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Antlr3.Runtime.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Antlr3.Runtime.dll&gt;" SelfReg="false"/>
+    <ROW File="Antlr3.Runtime.pdb" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="ANTLR3~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_Antlr3.Runtime.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Antlr3.Runtime.pdb&gt;" SelfReg="false"/>
+    <ROW File="ApplicationInsights.config_1" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="APPLIC~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_ApplicationInsights.config_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ApplicationInsights.config_1&gt;" SelfReg="false"/>
+    <ROW File="KmnlkCommon.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="KMNLKC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkCommon.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkCommon.dll&gt;" SelfReg="false"/>
+    <ROW File="KmnlkOLAPApi.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="KMNLKO~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkOLAPApi.dll&gt;" SelfReg="false"/>
+    <ROW File="KmnlkOLAPApi.pdb" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="KMNLKO~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkOLAPApi.pdb&gt;" SelfReg="false"/>
+    <ROW File="KmnlkOLAPDll.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="KMNLKO~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPDll.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkOLAPDll.dll&gt;" SelfReg="false"/>
+    <ROW File="KmnlkOLAPDll.pdb" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="KMNLKO~3.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPDll.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkOLAPDll.pdb&gt;" SelfReg="false"/>
+    <ROW File="KmnlkOLAPEngine.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="KMNLKO~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPEngine.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkOLAPEngine.dll&gt;" SelfReg="false"/>
+    <ROW File="KmnlkOLAPEngine.pdb" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="KMNLKO~4.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPEngine.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkOLAPEngine.pdb&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AI.Agent.Intercept.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.Agent.Intercept.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AI.Agent.Intercept.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AI.DependencyCollector.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="MICROS~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.DependencyCollector.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AI.DependencyCollector.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AI.PerfCounterCollector.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="MICROS~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.PerfCounterCollector.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AI.PerfCounterCollector.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AI.ServerTelemetryChannel.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="MICROS~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AI.Web.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="MICROS~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.Web.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AI.Web.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AI.WindowsServer.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="MICROS~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.WindowsServer.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AI.WindowsServer.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AnalysisServices.AdomdClient.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="MICROS~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AnalysisServices.AdomdClient.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AnalysisServices.AdomdClient.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.ApplicationInsights.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="MICROS~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ApplicationInsights.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.ApplicationInsights.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="MICRO~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Web.Infrastructure.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="MICRO~11.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Web.Infrastructure.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Web.Infrastructure.dll&gt;" SelfReg="false"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="NEWTON~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Newtonsoft.Json.dll&gt;" SelfReg="false"/>
+    <ROW File="Ninject.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Ninject.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Ninject.dll&gt;" SelfReg="false"/>
+    <ROW File="Ninject.Extensions.ChildKernel.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="NINJEC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Ninject.Extensions.ChildKernel.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Ninject.Extensions.ChildKernel.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Net.Http.Formatting.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Net.Http.Formatting.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Net.Http.Formatting.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.Helpers.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Helpers.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.Helpers.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.Http.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Http.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.Http.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.Http.WebHost.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="SYSTEM~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Http.WebHost.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.Http.WebHost.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.Mvc.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="SYSTEM~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Mvc.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.Mvc.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.Optimization.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="SYSTEM~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Optimization.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.Optimization.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.Razor.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="SYSTEM~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Razor.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.Razor.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.WebPages.Deployment.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="SYSTEM~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.Deployment.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.WebPages.Deployment.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.WebPages.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="SYSTE~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.WebPages.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.WebPages.Razor.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="SYSTE~11.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.Razor.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.WebPages.Razor.dll&gt;" SelfReg="false"/>
+    <ROW File="WebApiContrib.IoC.Ninject.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="WEBAPI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_WebApiContrib.IoC.Ninject.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WebApiContrib.IoC.Ninject.dll&gt;" SelfReg="false"/>
+    <ROW File="WebGrease.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin" FileName="WEBGRE~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_WebGrease.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WebGrease.dll&gt;" SelfReg="false"/>
+    <ROW File="bootstrap.css" Component_="KmnlkOLAPApi_WebsiteOutput_Content" FileName="BOOTST~2.CSS|[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.css]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_bootstrap.css&gt;" SelfReg="false"/>
+    <ROW File="bootstrap.min.css" Component_="KmnlkOLAPApi_WebsiteOutput_Content" FileName="BOOTST~3.CSS|[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.min.css]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_bootstrap.min.css&gt;" SelfReg="false"/>
+    <ROW File="Site.css" Component_="KmnlkOLAPApi_WebsiteOutput_Content" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Site.css]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Site.css&gt;" SelfReg="false"/>
+    <ROW File="glyphiconshalflingsregular.eot" Component_="KmnlkOLAPApi_WebsiteOutput_fonts" FileName="GLYPHI~2.EOT|[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.eot]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_glyphiconshalflingsregular.eot&gt;" SelfReg="false"/>
+    <ROW File="glyphiconshalflingsregular.svg" Component_="KmnlkOLAPApi_WebsiteOutput_fonts" FileName="GLYPHI~2.SVG|[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.svg]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_glyphiconshalflingsregular.svg&gt;" SelfReg="false"/>
+    <ROW File="glyphiconshalflingsregular.ttf" Component_="KmnlkOLAPApi_WebsiteOutput_fonts" FileName="GLYPHI~2.TTF|[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.ttf]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_glyphiconshalflingsregular.ttf&gt;" SelfReg="false"/>
+    <ROW File="glyphiconshalflingsregular.woff" Component_="KmnlkOLAPApi_WebsiteOutput_fonts" FileName="GLYPHI~2.WOF|[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.woff]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_glyphiconshalflingsregular.woff&gt;" SelfReg="false"/>
+    <ROW File="bootstrap.js" Component_="KmnlkOLAPApi_WebsiteOutput_Scripts" FileName="BOOTST~2.JS|[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_bootstrap.js&gt;" SelfReg="false"/>
+    <ROW File="bootstrap.min.js" Component_="KmnlkOLAPApi_WebsiteOutput_Scripts" FileName="BOOTST~3.JS|[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.min.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_bootstrap.min.js&gt;" SelfReg="false"/>
+    <ROW File="jquery1.10.2.js" Component_="KmnlkOLAPApi_WebsiteOutput_Scripts" FileName="JQUERY~2.JS|[|AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_jquery1.10.2.js&gt;" SelfReg="false"/>
+    <ROW File="jquery1.10.2.min.js" Component_="KmnlkOLAPApi_WebsiteOutput_Scripts" FileName="JQUERY~3.JS|[|AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.min.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_jquery1.10.2.min.js&gt;" SelfReg="false"/>
+    <ROW File="jquery1.10.2.min.map" Component_="KmnlkOLAPApi_WebsiteOutput_Scripts" FileName="JQUERY~2.MAP|[|AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.min.map]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_jquery1.10.2.min.map&gt;" SelfReg="false"/>
+    <ROW File="modernizr2.6.2.js" Component_="KmnlkOLAPApi_WebsiteOutput_Scripts" FileName="MODERN~2.JS|[|AI_PROPPATH_FILENAME_PERBUILD_modernizr2.6.2.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_modernizr2.6.2.js&gt;" SelfReg="false"/>
+    <ROW File="respond.js" Component_="KmnlkOLAPApi_WebsiteOutput_Scripts" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_respond.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_respond.js&gt;" SelfReg="false"/>
+    <ROW File="respond.min.js" Component_="KmnlkOLAPApi_WebsiteOutput_Scripts" FileName="RESPON~2.JS|[|AI_PROPPATH_FILENAME_PERBUILD_respond.min.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_respond.min.js&gt;" SelfReg="false"/>
+    <ROW File="config.xml" Component_="KmnlkOLAPApi_WebsiteOutput_Settings" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_config.xml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_config.xml&gt;" SelfReg="false"/>
+    <ROW File="_ViewStart.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Views" FileName="_VIEWS~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD__ViewStart.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD__ViewStart.cshtml&gt;" SelfReg="false"/>
+    <ROW File="Web.config_1" Component_="KmnlkOLAPApi_WebsiteOutput_Views" FileName="WEB~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_Web.config_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Web.config_1&gt;" SelfReg="false"/>
+    <ROW File="HelpPage.css" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_HelpPage.css]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_HelpPage.css&gt;" SelfReg="false"/>
+    <ROW File="KmnlkOLAPApi.resources.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_ar" FileName="KMNLKO~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.resources.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkOLAPApi.resources.dll&gt;" SelfReg="false"/>
+    <ROW File="KmnlkOLAPApi.resources.dll_1" Component_="KmnlkOLAPApi_WebsiteOutput_bin_en" FileName="KMNLKO~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.resources.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkOLAPApi.resources.dll_1&gt;" SelfReg="false"/>
+    <ROW File="KmnlkOLAPApi.resources.dll_2" Component_="KmnlkOLAPApi_WebsiteOutput_bin_fr" FileName="KMNLKO~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.resources.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkOLAPApi.resources.dll_2&gt;" SelfReg="false"/>
+    <ROW File="csc.exe" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_csc.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_csc.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="csc.exe.config" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="CSCEXE~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_csc.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_csc.exe.config&gt;" SelfReg="false"/>
+    <ROW File="csc.rsp" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_csc.rsp]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_csc.rsp&gt;" SelfReg="false"/>
+    <ROW File="csi.exe" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_csi.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_csi.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="csi.rsp" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_csi.rsp]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_csi.rsp&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Build.Tasks.CodeAnalysis.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CodeAnalysis.CSharp.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="MICROS~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CodeAnalysis.CSharp.Scripting.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="MICROS~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CodeAnalysis.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="MICROS~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CodeAnalysis.Scripting.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="MICROS~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CodeAnalysis.VisualBasic.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="MICROS~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CSharp.Core.targets" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="MICROS~2.TAR|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CSharp.Core.targets]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CSharp.Core.targets&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.DiaSymReader.Native.amd64.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="MICROS~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.DiaSymReader.Native.x86.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="MICROS~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.VisualBasic.Core.targets" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="MICROS~3.TAR|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.VisualBasic.Core.targets]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.VisualBasic.Core.targets&gt;" SelfReg="false"/>
+    <ROW File="System.AppContext.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.AppContext.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.AppContext.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Collections.Immutable.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Collections.Immutable.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Collections.Immutable.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Diagnostics.StackTrace.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.StackTrace.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Diagnostics.StackTrace.dll&gt;" SelfReg="false"/>
+    <ROW File="System.IO.FileSystem.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="SYSTEM~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.IO.FileSystem.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.IO.FileSystem.dll&gt;" SelfReg="false"/>
+    <ROW File="System.IO.FileSystem.Primitives.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="SYSTEM~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.IO.FileSystem.Primitives.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.IO.FileSystem.Primitives.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Reflection.Metadata.dll" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="SYSTEM~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Reflection.Metadata.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Reflection.Metadata.dll&gt;" SelfReg="false"/>
+    <ROW File="vbc.exe" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_vbc.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_vbc.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="vbc.exe.config" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="VBCEXE~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_vbc.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_vbc.exe.config&gt;" SelfReg="false"/>
+    <ROW File="vbc.rsp" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_vbc.rsp]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_vbc.rsp&gt;" SelfReg="false"/>
+    <ROW File="VBCSCompiler.exe" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="VBCSCO~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_VBCSCompiler.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_VBCSCompiler.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="VBCSCompiler.exe.config" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn" FileName="VBCSCO~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_VBCSCompiler.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_VBCSCompiler.exe.config&gt;" SelfReg="false"/>
+    <ROW File="KmnlkOLAPApiCollection.postman_collection.json" Component_="KmnlkOLAPApi_WebsiteOutput_Docs_collections" FileName="KMNLKO~2.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApiCollection.postman_collection.json]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkOLAPApiCollection.postman_collection.json&gt;" SelfReg="false"/>
+    <ROW File="Index.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Views_Home" FileName="INDEX~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_Index.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Index.cshtml&gt;" SelfReg="false"/>
+    <ROW File="_Layout.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Views_Shared" FileName="_LAYOU~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD__Layout.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD__Layout.cshtml&gt;" SelfReg="false"/>
+    <ROW File="Error.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Views_Shared" FileName="ERROR~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_Error.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Error.cshtml&gt;" SelfReg="false"/>
+    <ROW File="_ViewStart.cshtml_1" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views" FileName="_VIEWS~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD__ViewStart.cshtml_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD__ViewStart.cshtml_1&gt;" SelfReg="false"/>
+    <ROW File="Web.config_2" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views" FileName="WEB~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_Web.config_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Web.config_2&gt;" SelfReg="false"/>
+    <ROW File="Api.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help" FileName="API~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_Api.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Api.cshtml&gt;" SelfReg="false"/>
+    <ROW File="Index.cshtml_1" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help" FileName="INDEX~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_Index.cshtml_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Index.cshtml_1&gt;" SelfReg="false"/>
+    <ROW File="ResourceModel.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help" FileName="RESOUR~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_ResourceModel.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ResourceModel.cshtml&gt;" SelfReg="false"/>
+    <ROW File="_Layout.cshtml_1" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Shared" FileName="_LAYOU~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD__Layout.cshtml_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD__Layout.cshtml_1&gt;" SelfReg="false"/>
+    <ROW File="ApiGroup.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="APIGRO~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_ApiGroup.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ApiGroup.cshtml&gt;" SelfReg="false"/>
+    <ROW File="CollectionModelDescription.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="COLLEC~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_CollectionModelDescription.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CollectionModelDescription.cshtml&gt;" SelfReg="false"/>
+    <ROW File="ComplexTypeModelDescription.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="COMPLE~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_ComplexTypeModelDescription.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ComplexTypeModelDescription.cshtml&gt;" SelfReg="false"/>
+    <ROW File="DictionaryModelDescription.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="DICTIO~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_DictionaryModelDescription.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DictionaryModelDescription.cshtml&gt;" SelfReg="false"/>
+    <ROW File="EnumTypeModelDescription.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="ENUMTY~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_EnumTypeModelDescription.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_EnumTypeModelDescription.cshtml&gt;" SelfReg="false"/>
+    <ROW File="HelpPageApiModel.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="HELPPA~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_HelpPageApiModel.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_HelpPageApiModel.cshtml&gt;" SelfReg="false"/>
+    <ROW File="ImageSample.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="IMAGES~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_ImageSample.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ImageSample.cshtml&gt;" SelfReg="false"/>
+    <ROW File="InvalidSample.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="INVALI~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_InvalidSample.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_InvalidSample.cshtml&gt;" SelfReg="false"/>
+    <ROW File="KeyValuePairModelDescription.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="KEYVAL~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_KeyValuePairModelDescription.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KeyValuePairModelDescription.cshtml&gt;" SelfReg="false"/>
+    <ROW File="ModelDescriptionLink.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="MODELD~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_ModelDescriptionLink.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ModelDescriptionLink.cshtml&gt;" SelfReg="false"/>
+    <ROW File="Parameters.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="PARAME~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_Parameters.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Parameters.cshtml&gt;" SelfReg="false"/>
+    <ROW File="Samples.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="SAMPLE~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_Samples.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Samples.cshtml&gt;" SelfReg="false"/>
+    <ROW File="SimpleTypeModelDescription.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="SIMPLE~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_SimpleTypeModelDescription.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_SimpleTypeModelDescription.cshtml&gt;" SelfReg="false"/>
+    <ROW File="TextSample.cshtml" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="TEXTSA~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_TextSample.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TextSample.cshtml&gt;" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_APPPATH_PERBUILD_Antlr3.Runtime.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Antlr3.Runtime.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Antlr3.Runtime.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Antlr3.Runtime.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_Antlr3.Runtime.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_Antlr3.Runtime.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Api.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_Api.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_Api.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ApiGroup.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_ApiGroup.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_ApiGroup.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ApplicationInsights.config" Path="[|AI_PROPPATH_DIR_PERBUILD_ApplicationInsights.config]\[|AI_PROPPATH_FILENAME_PERBUILD_ApplicationInsights.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ApplicationInsights.config_1" Path="[|AI_PROPPATH_DIR_PERBUILD_ApplicationInsights.config_1]\[|AI_PROPPATH_FILENAME_PERBUILD_ApplicationInsights.config_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CollectionModelDescription.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_CollectionModelDescription.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_CollectionModelDescription.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ComplexTypeModelDescription.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_ComplexTypeModelDescription.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_ComplexTypeModelDescription.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DictionaryModelDescription.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_DictionaryModelDescription.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_DictionaryModelDescription.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_EnumTypeModelDescription.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_EnumTypeModelDescription.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_EnumTypeModelDescription.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Error.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_Error.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_Error.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Global.asax" Path="[|AI_PROPPATH_DIR_PERBUILD_Global.asax]\[|AI_PROPPATH_FILENAME_PERBUILD_Global.asax]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_HelpPage.css" Path="[|AI_PROPPATH_DIR_PERBUILD_HelpPage.css]\[|AI_PROPPATH_FILENAME_PERBUILD_HelpPage.css]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_HelpPageApiModel.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_HelpPageApiModel.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_HelpPageApiModel.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ImageSample.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_ImageSample.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_ImageSample.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Index.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_Index.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_Index.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Index.cshtml_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Index.cshtml_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Index.cshtml_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_InvalidSample.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_InvalidSample.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_InvalidSample.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KeyValuePairModelDescription.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_KeyValuePairModelDescription.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_KeyValuePairModelDescription.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkCommon.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkCommon.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkCommon.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkOLAPApi.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPApi.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkOLAPApi.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPApi.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkOLAPApi.resources.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPApi.resources.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.resources.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkOLAPApi.resources.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPApi.resources.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.resources.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkOLAPApi.resources.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPApi.resources.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApi.resources.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkOLAPApiCollection.postman_collection.json" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPApiCollection.postman_collection.json]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPApiCollection.postman_collection.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkOLAPDll.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPDll.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPDll.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkOLAPDll.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPDll.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPDll.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkOLAPEngine.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPEngine.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPEngine.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkOLAPEngine.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkOLAPEngine.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkOLAPEngine.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AI.Agent.Intercept.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.Agent.Intercept.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.Agent.Intercept.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AI.DependencyCollector.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.DependencyCollector.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.DependencyCollector.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AI.PerfCounterCollector.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.PerfCounterCollector.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.PerfCounterCollector.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AI.Web.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.Web.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.Web.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AI.WindowsServer.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.WindowsServer.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.WindowsServer.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AnalysisServices.AdomdClient.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AnalysisServices.AdomdClient.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AnalysisServices.AdomdClient.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.ApplicationInsights.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.ApplicationInsights.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ApplicationInsights.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CSharp.Core.targets" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CSharp.Core.targets]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CSharp.Core.targets]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.VisualBasic.Core.targets" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.VisualBasic.Core.targets]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.VisualBasic.Core.targets]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Web.Infrastructure.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Web.Infrastructure.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Web.Infrastructure.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ModelDescriptionLink.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_ModelDescriptionLink.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_ModelDescriptionLink.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Newtonsoft.Json.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Ninject.Extensions.ChildKernel.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Ninject.Extensions.ChildKernel.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Ninject.Extensions.ChildKernel.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Ninject.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Ninject.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Ninject.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Parameters.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_Parameters.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_Parameters.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ResourceModel.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_ResourceModel.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_ResourceModel.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Samples.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_Samples.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_Samples.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_SimpleTypeModelDescription.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_SimpleTypeModelDescription.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_SimpleTypeModelDescription.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Site.css" Path="[|AI_PROPPATH_DIR_PERBUILD_Site.css]\[|AI_PROPPATH_FILENAME_PERBUILD_Site.css]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.AppContext.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.AppContext.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.AppContext.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Collections.Immutable.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Collections.Immutable.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Collections.Immutable.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Diagnostics.StackTrace.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.StackTrace.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.StackTrace.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.IO.FileSystem.Primitives.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.IO.FileSystem.Primitives.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.IO.FileSystem.Primitives.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.IO.FileSystem.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.IO.FileSystem.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.IO.FileSystem.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Net.Http.Formatting.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Net.Http.Formatting.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Net.Http.Formatting.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Reflection.Metadata.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Reflection.Metadata.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Reflection.Metadata.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.Helpers.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.Helpers.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Helpers.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.Http.WebHost.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.Http.WebHost.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Http.WebHost.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.Http.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.Http.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Http.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.Mvc.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.Mvc.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Mvc.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.Optimization.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.Optimization.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Optimization.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.Razor.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.Razor.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Razor.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.WebPages.Deployment.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.WebPages.Deployment.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.Deployment.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.WebPages.Razor.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.WebPages.Razor.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.Razor.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.WebPages.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.WebPages.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TextSample.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_TextSample.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_TextSample.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_VBCSCompiler.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_VBCSCompiler.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_VBCSCompiler.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_VBCSCompiler.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_VBCSCompiler.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_VBCSCompiler.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Web.config" Path="[|AI_PROPPATH_DIR_PERBUILD_Web.config]\[|AI_PROPPATH_FILENAME_PERBUILD_Web.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Web.config_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Web.config_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Web.config_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Web.config_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Web.config_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Web.config_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WebApiContrib.IoC.Ninject.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_WebApiContrib.IoC.Ninject.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_WebApiContrib.IoC.Ninject.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WebGrease.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_WebGrease.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_WebGrease.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD__Layout.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD__Layout.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD__Layout.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD__Layout.cshtml_1" Path="[|AI_PROPPATH_DIR_PERBUILD__Layout.cshtml_1]\[|AI_PROPPATH_FILENAME_PERBUILD__Layout.cshtml_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD__ViewStart.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD__ViewStart.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD__ViewStart.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD__ViewStart.cshtml_1" Path="[|AI_PROPPATH_DIR_PERBUILD__ViewStart.cshtml_1]\[|AI_PROPPATH_FILENAME_PERBUILD__ViewStart.cshtml_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_bootstrap.css" Path="[|AI_PROPPATH_DIR_PERBUILD_bootstrap.css]\[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.css]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_bootstrap.js" Path="[|AI_PROPPATH_DIR_PERBUILD_bootstrap.js]\[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_bootstrap.min.css" Path="[|AI_PROPPATH_DIR_PERBUILD_bootstrap.min.css]\[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.min.css]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_bootstrap.min.js" Path="[|AI_PROPPATH_DIR_PERBUILD_bootstrap.min.js]\[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.min.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_config.xml" Path="[|AI_PROPPATH_DIR_PERBUILD_config.xml]\[|AI_PROPPATH_FILENAME_PERBUILD_config.xml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_csc.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_csc.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_csc.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_csc.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_csc.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_csc.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_csc.rsp" Path="[|AI_PROPPATH_DIR_PERBUILD_csc.rsp]\[|AI_PROPPATH_FILENAME_PERBUILD_csc.rsp]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_csi.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_csi.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_csi.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_csi.rsp" Path="[|AI_PROPPATH_DIR_PERBUILD_csi.rsp]\[|AI_PROPPATH_FILENAME_PERBUILD_csi.rsp]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_favicon.ico" Path="[|AI_PROPPATH_DIR_PERBUILD_favicon.ico]\[|AI_PROPPATH_FILENAME_PERBUILD_favicon.ico]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_glyphiconshalflingsregular.eot" Path="[|AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.eot]\[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.eot]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_glyphiconshalflingsregular.svg" Path="[|AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.svg]\[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.svg]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_glyphiconshalflingsregular.ttf" Path="[|AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.ttf]\[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.ttf]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_glyphiconshalflingsregular.woff" Path="[|AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.woff]\[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.woff]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_jquery1.10.2.js" Path="[|AI_PROPPATH_DIR_PERBUILD_jquery1.10.2.js]\[|AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_jquery1.10.2.min.js" Path="[|AI_PROPPATH_DIR_PERBUILD_jquery1.10.2.min.js]\[|AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.min.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_jquery1.10.2.min.map" Path="[|AI_PROPPATH_DIR_PERBUILD_jquery1.10.2.min.map]\[|AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.min.map]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_modernizr2.6.2.js" Path="[|AI_PROPPATH_DIR_PERBUILD_modernizr2.6.2.js]\[|AI_PROPPATH_FILENAME_PERBUILD_modernizr2.6.2.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_packages.config" Path="[|AI_PROPPATH_DIR_PERBUILD_packages.config]\[|AI_PROPPATH_FILENAME_PERBUILD_packages.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_respond.js" Path="[|AI_PROPPATH_DIR_PERBUILD_respond.js]\[|AI_PROPPATH_FILENAME_PERBUILD_respond.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_respond.min.js" Path="[|AI_PROPPATH_DIR_PERBUILD_respond.min.js]\[|AI_PROPPATH_FILENAME_PERBUILD_respond.min.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_vbc.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_vbc.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_vbc.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_vbc.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_vbc.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_vbc.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_vbc.rsp" Path="[|AI_PROPPATH_DIR_PERBUILD_vbc.rsp]\[|AI_PROPPATH_FILENAME_PERBUILD_vbc.rsp]" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_bin"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_Content"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_fonts"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_Scripts"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_Settings"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_Views"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_bin_ar"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_bin_en"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_bin_fr"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_bin_roslyn"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_Docs_collections"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_Views_Home"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_Views_Shared"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Shared"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkOLAPApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsProjectComponent">
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="PrimaryOutput" OutputFile="Web.config"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="ApplicationInsights.config"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="favicon.ico"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Global.asax"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="packages.config"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Antlr3.Runtime.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Antlr3.Runtime.pdb"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="ApplicationInsights.config_1"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkCommon.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkOLAPApi.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkOLAPApi.pdb"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkOLAPDll.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkOLAPDll.pdb"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkOLAPEngine.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkOLAPEngine.pdb"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AI.Agent.Intercept.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AI.DependencyCollector.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AI.PerfCounterCollector.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AI.ServerTelemetryChannel.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AI.Web.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AI.WindowsServer.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AnalysisServices.AdomdClient.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.ApplicationInsights.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.Web.Infrastructure.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Newtonsoft.Json.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Ninject.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Ninject.Extensions.ChildKernel.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Net.Http.Formatting.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.Helpers.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.Http.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.Http.WebHost.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.Mvc.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.Optimization.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.Razor.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.WebPages.Deployment.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.WebPages.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.WebPages.Razor.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="WebApiContrib.IoC.Ninject.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="WebGrease.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="bootstrap.css"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="bootstrap.min.css"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Site.css"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="glyphiconshalflingsregular.eot"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="glyphiconshalflingsregular.svg"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="glyphiconshalflingsregular.ttf"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="glyphiconshalflingsregular.woff"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="bootstrap.js"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="bootstrap.min.js"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="jquery1.10.2.js"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="jquery1.10.2.min.js"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="jquery1.10.2.min.map"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="modernizr2.6.2.js"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="respond.js"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="respond.min.js"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="config.xml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="_ViewStart.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Web.config_1"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="HelpPage.css"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkOLAPApi.resources.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkOLAPApi.resources.dll_1"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkOLAPApi.resources.dll_2"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="csc.exe"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="csc.exe.config"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="csc.rsp"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="csi.exe"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="csi.rsp"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.Build.Tasks.CodeAnalysis.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CodeAnalysis.CSharp.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CodeAnalysis.CSharp.Scripting.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CodeAnalysis.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CodeAnalysis.Scripting.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CodeAnalysis.VisualBasic.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CSharp.Core.targets"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.DiaSymReader.Native.amd64.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.DiaSymReader.Native.x86.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.VisualBasic.Core.targets"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.AppContext.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Collections.Immutable.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Diagnostics.StackTrace.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.IO.FileSystem.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.IO.FileSystem.Primitives.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="System.Reflection.Metadata.dll"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="vbc.exe"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="vbc.exe.config"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="vbc.rsp"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="VBCSCompiler.exe"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="VBCSCompiler.exe.config"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkOLAPApiCollection.postman_collection.json"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Index.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="_Layout.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Error.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="_ViewStart.cshtml_1"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Web.config_2"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Api.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Index.cshtml_1"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="ResourceModel.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="_Layout.cshtml_1"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="ApiGroup.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="CollectionModelDescription.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="ComplexTypeModelDescription.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="DictionaryModelDescription.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="EnumTypeModelDescription.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="HelpPageApiModel.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="ImageSample.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="InvalidSample.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="KeyValuePairModelDescription.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="ModelDescriptionLink.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Parameters.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="Samples.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="SimpleTypeModelDescription.cshtml"/>
+    <ROW ProjectId="{e1d06b6f-1226-4b2b-a016-db75b17b1309}" ProjectName="KmnlkOLAPApi" OutputGroup="WebsiteOutput" OutputFile="TextSample.cshtml"/>
+  </COMPONENT>
+</DOCUMENT>

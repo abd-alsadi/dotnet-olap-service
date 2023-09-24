@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "dd4c9104-253f-4837-be39-7d9966bdb87d",
+		"name": "KmnlkOLAPApiCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetOlap",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"source\":\"Pubs\",\n\t\"measures\":[{\"name\":\"Sales Count\"}],\n\t\"diminsions\":[\n\t\t{\n\t\t\t\"name\":\"Stores\",\n\t\t\t\"keys\":[\n\t\t\t\t{\n\t\t\t\t\t\"name\":\"City\",\n\t\t\t\t\t\"visible\":true,\n\t\t\t\t\t\"isFilter\":true,\n\t\t\t\t\t\"filter\":{\n\t\t\t\t\t\t\"operation\":\"<>\",\n\t\t\t\t\t\t\"value\":\"Fremont\"\n\t\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\t]\n\t\t\t\n\t\t}\n\t\t],\n\t\"conditions\":[]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:62491/api/v1/Olap/GetOlap?type=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62491",
+					"path": [
+						"api",
+						"v1",
+						"Olap",
+						"GetOlap"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllOlap",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"source\":\"Pubs\",\n\t\"measures\":[{\"name\":\"Sales Count\"}],\n\t\"diminsions\":[\n\t\t{\n\t\t\t\"name\":\"Stores\",\n\t\t\t\"keys\":[\n\t\t\t\t{\n\t\t\t\t\t\"name\":\"City\",\n\t\t\t\t\t\"visible\":true,\n\t\t\t\t\t\"isFilter\":true,\n\t\t\t\t\t\"filter\":{\n\t\t\t\t\t\t\"operation\":\"<>\",\n\t\t\t\t\t\t\"value\":\"Fremont\"\n\t\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\t]\n\t\t\t\n\t\t}\n\t\t],\n\t\"conditions\":[]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:62491/api/v1/Olap/AllOlap?type=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62491",
+					"path": [
+						"api",
+						"v1",
+						"Olap",
+						"AllOlap"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"source\":\"Pubs\",\n\t\"measures\":[{\"name\":\"Sales Count\"},{\"name\":\"Sales Count\"}],\n\t\"diminsions\":[\n\t\t{\n\t\t\t\"name\":\"Stores\",\n\t\t\t\"keys\":[\n\t\t\t\t{\n\t\t\t\t\t\"name\":\"City\",\n\t\t\t\t\t\"visible\":true,\n\t\t\t\t\t\"isFilter\":true,\n\t\t\t\t\t\"filter\":{\n\t\t\t\t\t\t\"operation\":\"<>\",\n\t\t\t\t\t\t\"value\":\"Fremont\"\n\t\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\"name\":\"City\",\n\t\t\t\t\t\"visible\":true,\n\t\t\t\t\t\"isFilter\":true,\n\t\t\t\t\t\"filter\":{\n\t\t\t\t\t\t\"operation\":\"<>\",\n\t\t\t\t\t\t\"value\":\"Fremont\"\n\t\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\t]\n\t\t\t\n\t\t}\n\t\t],\n\t\"conditions\":[]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "request body",
+					"host": [
+						"request body"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

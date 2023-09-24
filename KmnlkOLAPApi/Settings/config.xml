@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<VersionNumber>2019.01</VersionNumber>
+<ConnectionString>Provider=MSOLAP; Initial Catalog=test1; Connect Timeout=30; Data Source=.;</ConnectionString>
+<!-- <ConnectionString>Provider=SQLOLEDB.1; Persist Security info=true;User ID=sa; Password=sa; Initial Catalog=KmnlkDB; Connect Timeout=30; Data Source=.;</ConnectionString> -->
+<DBType>SQL</DBType>
+<PublicKey></PublicKey>
+<DBUserID>sa</DBUserID>
+<DBPassword>sa</DBPassword>
+<EnableLog>true</EnableLog>
+<TypeLog>file</TypeLog>
+<PathLog>E:\my projects\KmnlkOLAP\KmnlkOLAPApi\Output\Log\Local\</PathLog>
+<GlobalPathLog>E:\my projects\KmnlkOLAP\KmnlkOLAPApi\Output\Log\Global\</GlobalPathLog>
+<DataFolder> </DataFolder>
+<UploadFilesMaximumFileSize>0</UploadFilesMaximumFileSize>
+<OCRServiceUrl></OCRServiceUrl>
+</Settings>

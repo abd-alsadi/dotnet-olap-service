@@ -1,0 +1,8 @@
+S:\LocalPro\KmnlkOLAP\KmnlkOLAPEngine\obj\Debug\KmnlkOLAPEngine.csprojResolveAssemblyReference.cache
+S:\LocalPro\KmnlkOLAP\KmnlkOLAPEngine\bin\Debug\KmnlkOLAPEngine.dll
+S:\LocalPro\KmnlkOLAP\KmnlkOLAPEngine\bin\Debug\KmnlkOLAPEngine.pdb
+S:\LocalPro\KmnlkOLAP\KmnlkOLAPEngine\bin\Debug\KmnlkCommon.dll
+S:\LocalPro\KmnlkOLAP\KmnlkOLAPEngine\bin\Debug\microsoft.analysisservices.adomdclient.dll
+S:\LocalPro\KmnlkOLAP\KmnlkOLAPEngine\bin\Debug\Newtonsoft.Json.dll
+S:\LocalPro\KmnlkOLAP\KmnlkOLAPEngine\obj\Debug\KmnlkOLAPEngine.dll
+S:\LocalPro\KmnlkOLAP\KmnlkOLAPEngine\obj\Debug\KmnlkOLAPEngine.pdb
